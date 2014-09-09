@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DLS Demo Product
+Bundle-SymbolicName: org.csstudio.dls.product;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.csstudio.dls.product.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui.intro;bundle-version="3.4.100",
+ org.eclipse.ui.intro.universal;bundle-version="3.2.500",
+ org.csstudio.startup;bundle-version="3.1.0",
+ org.csstudio.utility.product;bundle-version="1.1.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

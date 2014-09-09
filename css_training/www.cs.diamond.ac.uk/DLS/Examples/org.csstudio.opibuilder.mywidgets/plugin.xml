@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.csstudio.opibuilder.widget">
+      <widget
+            category="Monitors"
+            editpart_class="org.csstudio.opibuilder.mywidgets.TestWidgetEditpart"
+            icon="icons/ellipse.gif"
+            model_class="org.csstudio.opibuilder.mywidgets.TestWidgetModel"
+            name="Test Widget"
+            typeId="org.csstudio.opibuilder.mywidgets.testwidget">
+      </widget>
+   </extension>
+
+</plugin>

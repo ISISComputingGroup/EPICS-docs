@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My Widgets
+Bundle-SymbolicName: org.csstudio.opibuilder.mywidgets;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Fred
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.csstudio.opibuilder;bundle-version="3.1.4"
